@@ -32,5 +32,12 @@ Uma aplicação web simples desenvolvida com Django no backend e React no fronte
 - pip (gerenciador de pacotes Python)
 - npm ou yarn
 
+### Importando Dados
+## Selecione uma planilha com os seguintes dados em sequência:
+- **NOME(Text)**
+- **IDADE(NUM)**
+- **EMAIL(Text)**
+- **DATA_NASCIMeNTO(DATA)**
+
 <!-- ### Clone o Repositório
 ```bash -->

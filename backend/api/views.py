@@ -1,8 +1,8 @@
-import pandas as pd
-from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from .models import Pessoa
 from django.views.decorators.http import require_POST
+from django.http import JsonResponse
+from .models import Pessoa
+import pandas as pd
 import json
 
 @csrf_exempt

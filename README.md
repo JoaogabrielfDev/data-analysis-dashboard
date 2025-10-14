@@ -32,12 +32,15 @@ Uma aplicação web simples desenvolvida com Django no backend e React no fronte
 - pip (gerenciador de pacotes Python)
 - npm ou yarn
 
-### Importando Dados
-## Selecione uma planilha com os seguintes dados em sequência:
-- **NOME(Text)**
-- **IDADE(NUM)**
-- **EMAIL(Text)**
-- **DATA_NASCIMeNTO(DATA)**
+
+## 📤 Modelo da Planilha Excel para Importação
+
+| nome | idade | email | data_nascimento |
+|------|-------|-------|-----------------|
+| João Silva | 30 | joao.silva@email.com | 1993-05-15 |
+| Maria Oliveira | 25 | maria.oliveira@email.com | 1998-08-22 |
+| Pedro Santos | 35 | pedro.santos@email.com | 1988-12-10 |
+| Ana Costa | 28 | ana.costa@email.com | 1995-03-17 |
 
 <!-- ### Clone o Repositório
 ```bash -->

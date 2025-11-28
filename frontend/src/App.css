@@ -1,75 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
 body {
-  background: #000000;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0f0f0f;
+  color: #eaeaea;
 }
 
 .App {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
+  padding: 40px 20px;
 }
 
 .container {
-  background: #202020;
-  padding: 32px 40px;
-  margin-top: 40px;
-  border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-  width: 90%;
+  width: 100%;
+  max-width: 950px;
+  background: #1a1a1a;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 30px #00000040;
+  border: 1px solid #2c2c2c;
 }
 
 .titulo {
-  margin-bottom: 24px;
-  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
   font-weight: 600;
-  color: #ffffff;
+  color: #f0f0f0;
 }
 
+/* Upload */
 .input-exel {
-    display: flex;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
 }
-.input-exel button{
-    margin-left: 73%;
 
+input[type="file"] {
+  background: #111;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #333;
 }
 
+input[type="file"]::-webkit-file-upload-button {
+  background: #222;
+  color: #ddd;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Botões */
 .botao {
-  background: #5e5e5e;
+  background: #4c8df5;
   color: #fff;
   border: none;
-  padding: 10px 22px;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
   cursor: pointer;
-  margin-bottom: 18px;
-  transition: background 0.2s;
+  transition: 0.2s;
+  font-size: 14px;
 }
 
 .botao:hover {
-  background: #1565c0;
+  background: #357ae8;
 }
 
+/* Tabela */
 .tabela {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
 }
 
-.tabela th, .tabela td {
-  border: 1px solid #e0e0e0;
-  padding: 10px 8px;
-  text-align: left;
-  color: white;
-}
-
 .tabela th {
-  background: #242424;
-  color: #fff;
-  font-weight: 500;
+  background: #222;
+  padding: 12px;
+  border-bottom: 2px solid #333;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
-.tabela tr:nth-child(even) {
-  background: #303030;
+.tabela td {
+  text-align: center;
+  padding: 12px 8px;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.tabela tr:hover {
+  background: #262626;
+  transition: 0.2s;
+}
+
+/* Inputs de edição */
+.tabela input {
+  background: #111;
+  border: 1px solid #333;
+  padding: 6px;
+  border-radius: 6px;
+  color: #eee;
+}
+
+@media (max-width: 700px) {
+  .tabela th, 
+  .tabela td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 20px;
+  }
 }

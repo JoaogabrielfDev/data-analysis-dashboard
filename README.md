@@ -1,14 +1,14 @@
-# 📊 Sistema de Gerenciamento de Dados Pessoais
+# Sistema de Gerenciamento de Dados Pessoais
 
 Uma aplicação web simples desenvolvida com Django no backend e React no frontend para importação, gerenciamento e edição de dados pessoais através de planilhas Excel.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- **📤 Importação de Planilhas**: Suporte a arquivos Excel (.xlsx, .xls)
-- **👥 Gerenciamento de Dados**: Armazena informações de nome, idade, email e data de nascimento
-- **✏️ Edição em Tempo Real**: Interface intuitiva para editar dados diretamente na tabela
-- **💾 Persistência**: Dados salvos no banco de dados Django
-- **🎯 Interface Responsiva**: Design moderno e adaptável para diferentes dispositivos
+- **Importação de Planilhas**: Suporte a arquivos Excel (.xlsx, .xls)
+- **Gerenciamento de Dados**: Armazena informações de nome, idade, email e data de nascimento
+- **Edição em Tempo Real**: Interface intuitiva para editar dados diretamente na tabela
+- **Persistência**: Dados salvos no banco de dados Django
+- **Interface Responsiva**: Design moderno e adaptável para diferentes dispositivos
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -24,7 +24,7 @@ Uma aplicação web simples desenvolvida com Django no backend e React no fronte
 - **Axios** - Cliente HTTP
 - **XLSX** - Leitura de arquivos Excel no frontend
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 - Python 3.8 ou superior
@@ -33,7 +33,7 @@ Uma aplicação web simples desenvolvida com Django no backend e React no fronte
 - npm ou yarn
 
 
-## 📤 Modelo da Planilha Excel para Importação
+## Modelo da Planilha Excel para Importação
 
 | nome | idade | email | data_nascimento |
 |------|-------|-------|-----------------|
@@ -41,6 +41,3 @@ Uma aplicação web simples desenvolvida com Django no backend e React no fronte
 | Maria Oliveira | 25 | maria.oliveira@email.com | 1998-08-22 |
 | Pedro Santos | 35 | pedro.santos@email.com | 1988-12-10 |
 | Ana Costa | 28 | ana.costa@email.com | 1995-03-17 |
-
-<!-- ### Clone o Repositório
-```bash -->

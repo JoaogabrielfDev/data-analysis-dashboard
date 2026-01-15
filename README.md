@@ -10,7 +10,7 @@ Uma aplicação web simples desenvolvida com Django no backend e React no fronte
 - **Persistência**: Dados salvos no banco de dados Django
 - **Interface Responsiva**: Design moderno e adaptável para diferentes dispositivos
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend
 - **Python**
